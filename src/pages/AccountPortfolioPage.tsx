@@ -58,6 +58,8 @@ import sachiLogo from "../../asset/brand-logos/sachi.png";
 import sohacoLogo from "../../asset/brand-logos/sohaco.png";
 import wellkidsLogo from "../../asset/brand-logos/wellkids.png";
 
+const withBasePath = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
+
 type AccountLang = "vi" | "en";
 
 const common = {
@@ -107,7 +109,7 @@ const accountContent = {
       ["Dự án", "#du-an"],
       ["Liên hệ", "#lien-he"],
     ],
-    cvHref: "/output/pdf/Nguyen_Em_Tai_Middle_Account_Executive_Client_Solution_VI.pdf",
+    cvHref: withBasePath("/output/pdf/Nguyen_Em_Tai_Middle_Account_Executive_Client_Solution_VI.pdf"),
     languageButton: "EN",
     hero: {
       eyebrow: "Middle Account Executive Portfolio",
@@ -346,7 +348,7 @@ const accountContent = {
       ["Projects", "#du-an"],
       ["Contact", "#lien-he"],
     ],
-    cvHref: "/output/pdf/Nguyen_Em_Tai_Middle_Account_Executive_Client_Solution_EN.pdf",
+    cvHref: withBasePath("/output/pdf/Nguyen_Em_Tai_Middle_Account_Executive_Client_Solution_EN.pdf"),
     languageButton: "VI",
     hero: {
       eyebrow: "Middle Account Executive Portfolio",
