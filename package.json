@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3001 --host=0.0.0.0",
-    "build": "vite build",
+    "dev": "cp source-index.html index.html && vite --port=3001 --host=0.0.0.0",
+    "build": "cp source-index.html index.html && vite build",
+    "publish": "npm run build && cp dist/index.html index.html && rm -rf assets && cp -R dist/assets assets",
     "preview": "vite preview --port=4174 --host=0.0.0.0",
     "lint": "tsc --noEmit"
   },

@@ -131,8 +131,8 @@ const accountContent = {
       eyebrow: "Giới thiệu",
       title: "Câu chuyện nghề nghiệp",
       paragraphs: [
-        "Nền tảng của mình được đúc kết qua nhiều vai trò thực chiến trong môi trường Agency: từ BD/Pitching giải bài toán khách hàng, Account chăm sóc & quản trị kỳ vọng Client, Full-stack Operation (vận hành E-commerce, KOC/KOL Booking, tối ưu Ads) cho đến Truyền thông sự kiện. Việc đứng ở nhiều góc độ giúp mình thấu hiểu trọn vẹn luồng dự án, từ đó định vị bản thân theo mảng Client Solutions - tập trung tư vấn chiến lược và biến mọi Brief thành kết quả đo lường được.",
-        "Sở trường của mình là khả năng chủ động giải quyết vấn đề, linh hoạt thích ứng và bám sát mục tiêu dự án. Mình liên tục chuẩn hóa quy trình và tư duy quản trị để chinh phục các cột mốc chuyên môn cao hơn.",
+        "Trải qua nhiều mắt xích trong Agency (BD/Pitching, Account, Booking KOC/KOL, Ads & Event), mình thấu hiểu toàn diện luồng dự án để định vị theo mảng Client Solutions — kết nối bài toán kinh doanh của Brand với năng lực thực thi thực tế.",
+        "Thế mạnh cốt lõi của mình là khả năng chuẩn hóa quy trình, quản trị rủi ro hiện trường và bám sát mục tiêu tăng trưởng. Mình luôn chủ động tối ưu vận hành để mang lại giá trị đo lường được cho chiến dịch.",
       ],
       proof: [
         ["Hiện tại", "Account Executive: Thực chiến vận hành campaign, KOC/KOL Booking và giải pháp Client."],
@@ -244,10 +244,10 @@ const accountContent = {
           creators: common.betterMeCreators,
           evidenceTitle: "KẾT QUẢ TRIỂN KHAI & HIỆU QUẢ KINH DOANH",
           evidence: [
-            "500M+ GMV (Doanh số tạo ra từ chiến dịch)",
-            "20M+ Total Reach (Lượt tiếp cận qua Live & Video)",
-            "50+ Creators Active (KOL/KOC phủ sóng thương hiệu)",
-            "5 KOL Live Add-in & 100 Micro KOCs/tháng (Quy mô booking được duy trì liên tục)",
+            "900M+ GMV: Sau 6 tháng",
+            "50M+ Total Reach: Qua Live và Video",
+            "100 KOC Affiliate Active / 1 tháng: KOC Affiliate tham gia triển khai",
+            "15 Top KOL Beauty: Live và Video",
           ],
           frames: ["Danh sách KOC/KOL", "Timeline triển khai", "Báo cáo đã làm sạch"],
         },
@@ -266,17 +266,17 @@ const accountContent = {
           action: "",
           evidenceTitle: "KẾT QUẢ CỘNG ĐỒNG & SOCIAL COMMERCE",
           evidence: [
-            "800+ Creators: Cộng đồng KOC Active được xây dựng & quy hoạch trên toàn quốc.",
-            "2,000+ Video Affiliate: Nội dung phủ sóng thương hiệu được triển khai qua KOC Hub.",
-            "200+ Phiên Live: Hoạt động Livestream bán hàng bứt phá doanh số (trong 01 tháng).",
-            "10,000+ Interactions: Tương tác thực tế từ chuỗi Content, Minigame nhóm và Offline Workshop.",
+            "800+ Creators: Hỗ trợ và xây dựng phát triển từ cộng đồng có sẵn.",
+            "1000+ Video: Nội dung phủ sóng thương hiệu được triển khai qua KOC Hub.",
+            ">500M GMV/chiến dịch: Doanh thu triển khai trung bình trên mỗi chiến dịch.",
+            "2000+ Video UGC/Affiliate: Triển khai qua nhiều dự án.",
           ],
           frames: ["Cộng đồng KOC", "Workshop offline", "Affiliate & live activation"],
         },
         {
           label: "Case 03 / Multi-Brand Affiliate Execution",
-          title: "Multi-Brand Video Affiliate Sprint (Clear, Dove, myKella)",
-          roleTitle: "Role: BD & Operations Framework Lead",
+          title: "Multi-Brand Affiliate Operations Framework & Scale-up",
+          roleTitle: "VAI TRÒ: BD & Operations Framework Lead",
           context: "Các thương hiệu thuộc ngành Beauty & Personal Care (Clear, Dove, myKella) cần tạo làn sóng phủ rộng trên sàn thương mại điện tử bằng chiến dịch Video Affiliate tốc độ cao (Sprint). Thách thức lớn nhất là thiết lập một bộ máy vận hành có khả năng mở rộng (Scale-up) nhanh chóng: vừa tuyển chọn được lượng lớn KOC chất lượng trong thời gian ngắn, vừa đào tạo đội ngũ triển khai nắm chuẩn quy trình kiểm soát nội dung đồng bộ trên hàng nghìn video.",
           role: [
             "Trực tiếp đóng vai trò BD & Operations Framework Lead, chịu trách nhiệm kết nối dự án, đóng gói bài toán vận hành và trang bị năng lực thực thi cho đội ngũ.",
@@ -288,9 +288,9 @@ const accountContent = {
           action: "",
           evidenceTitle: "KẾT QUẢ VẬN HÀNH DỰ ÁN",
           evidence: [
-            "750+ Active KOCs: Hệ thống Creator tham gia chiến dịch đồng thời cho cả 3 thương hiệu (Clear: 400+, Dove: 250+, myKella: 100+).",
-            "3,700+ Videos Uploaded: Tổng lượng Video Affiliate phủ sóng thị trường (Clear: 2.500+, Dove: 1.000+, myKella: 200+).",
-            "10M+ Total Views: Tổng lượt tiếp cận tạo ra qua chuỗi Video Review (Clear: 5M+, Dove: 3M+, myKella: 2M+).",
+            "500+ KOC làm việc: Hệ thống Creator/KOC được điều phối qua nhiều chiến dịch.",
+            "3,700+ Videos Uploaded: Tổng lượng Video Affiliate phủ sóng thị trường qua nhiều dự án.",
+            "10M+ Total Views: Tổng lượt tiếp cận tạo ra qua chuỗi Video Review.",
             "2,000+ Generated Orders: Số lượng đơn hàng trực tiếp kích hoạt qua mạng lưới Affiliate.",
           ],
           frames: ["Multi-brand creator system", "Video affiliate tracker", "Performance dashboard"],
@@ -1006,9 +1006,10 @@ function MiniProof({ title, body }: { title: string; body: string }) {
   );
 }
 
-type ContributionGroup = (typeof accountContent.vi.contribution.groups)[number];
-type ProjectEntry = (typeof accountContent.vi.projects.items)[number];
-type ProjectLabels = typeof accountContent.vi.projects.labels;
+type AccountContent = (typeof accountContent)[AccountLang];
+type ContributionGroup = AccountContent["contribution"]["groups"][number];
+type ProjectEntry = AccountContent["projects"]["items"][number];
+type ProjectLabels = AccountContent["projects"]["labels"];
 
 function ContributionGroupCard({ group }: { group: ContributionGroup }) {
   return (
