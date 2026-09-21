@@ -58,9 +58,12 @@ import sachiLogo from "../assets/brand-logos/sachi.png";
 import sohacoLogo from "../assets/brand-logos/sohaco.png";
 import wellkidsLogo from "../assets/brand-logos/wellkids.png";
 
-const withBasePath = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
-
 type AccountLang = "vi" | "en";
+
+const cvLinks = {
+  vi: "https://drive.google.com/file/d/19QGTwZD1HZUnwUDUxcweA4fiYS9L39c8/view?usp=drive_link",
+  en: "https://drive.google.com/file/d/1L5LP-O1Gix3tgIBAWZhCpiAeUpxrR7OC/view?usp=drive_link",
+} as const;
 
 const common = {
   betterMeImages: [betterMeImage1, betterMeImage2, betterMeImage3],
@@ -109,7 +112,7 @@ const accountContent = {
       ["Dự án", "#du-an"],
       ["Liên hệ", "#lien-he"],
     ],
-    cvHref: withBasePath("/output/pdf/Nguyen_Em_Tai_Middle_Account_Executive_Client_Solution_VI.pdf"),
+    cvHref: cvLinks.vi,
     languageButton: "EN",
     hero: {
       eyebrow: "Middle Account Executive Portfolio",
@@ -123,8 +126,8 @@ const accountContent = {
       badge: "Account Specialist / Growth Solution",
       stats: [
         ["2+", "Năm trong Creator Economy"],
-        ["100-800", "Video đầu ra mỗi chiến dịch"],
-        ["15+", "Cộng đồng KOC đang hỗ trợ setup"],
+        ["100-800", "Video deliverables/campaign"],
+        ["12-15", "Proposal/pitching process"],
       ],
     },
     intro: {
@@ -269,7 +272,7 @@ const accountContent = {
             "800+ Creators: Hỗ trợ và xây dựng phát triển từ cộng đồng có sẵn.",
             "1000+ Video: Nội dung phủ sóng thương hiệu được triển khai qua KOC Hub.",
             ">500M GMV/chiến dịch: Doanh thu triển khai trung bình trên mỗi chiến dịch.",
-            "2000+ Video UGC/Affiliate: Triển khai qua nhiều dự án.",
+            "200-KOC Offline Event Series: Chuỗi sự kiện offline 200 KOC tổ chức định kỳ 2 tháng 1 lần.",
           ],
           frames: ["Cộng đồng KOC", "Workshop offline", "Affiliate & live activation"],
         },
@@ -323,9 +326,9 @@ const accountContent = {
       eyebrow: "DẤU ẤN NĂNG LỰC",
       title: "Thương hiệu đồng hành & Chỉ số thực chiến",
       results: [
-        ["01 / Strategic Solutions", "15+ Proposals & Ngân sách 50M - 500M+ VNĐ. Trực tiếp nghiên cứu, lập phương án chiến lược (Strategic Proposals) và quản trị ngân sách P&L cho các thương hiệu lớn."],
-        ["02 / Mass Operation & Team Leadership", "Build & Lead Team vận hành 3.000+ Videos, 200+ Lives & 32M+ Reach. Xây dựng bộ máy, đóng gói quy trình (SOP) và dẫn dắt đội ngũ vận hành tạo ra hơn 3.000 Video Affiliate, 200+ phiên Livestream và 32M+ lượt tiếp cận."],
-        ["03 / Creator Ecosystem", "Co-developer Cộng đồng 15.000+ KOC Affiliate. Đặt nền móng phát triển hệ sinh thái VietCreator Hub, quy hoạch tệp Creator chất lượng để sẵn sàng kích hoạt cho mọi chiến dịch."],
+        ["01 / Strategic Solutions", "12-15 Proposals & ngân sách 35M - 350M VNĐ. Tham gia research, planning, deck, quotation, client follow-up và theo dõi costing, margin/P&L cho dự án."],
+        ["02 / Operation Scale", "2-3 dự án song song; 100-800 video/campaign; 5 mid-tier KOC hoặc 100+ small KOC/tháng. Chuẩn hóa workflow, booking, reporting và delivery tracking."],
+        ["03 / Team Enablement", "Training 3-6 intern/trainee/junior về booking, creator data, reporting, timeline tracking, content checking và workflow/reporting process."],
       ],
     },
     gallery: {
@@ -348,7 +351,7 @@ const accountContent = {
       ["Projects", "#du-an"],
       ["Contact", "#lien-he"],
     ],
-    cvHref: withBasePath("/output/pdf/Nguyen_Em_Tai_Middle_Account_Executive_Client_Solution_EN.pdf"),
+    cvHref: cvLinks.en,
     languageButton: "VI",
     hero: {
       eyebrow: "Middle Account Executive Portfolio",
@@ -363,7 +366,7 @@ const accountContent = {
       stats: [
         ["2+", "Years in the Creator Economy"],
         ["100-800", "videos delivered per campaign"],
-        ["15+", "KOC communities supported"],
+        ["12-15", "proposal/pitching processes"],
       ],
     },
     intro: {
@@ -482,10 +485,10 @@ const accountContent = {
           creators: common.betterMeCreators,
           evidenceTitle: "EXECUTION RESULTS & BUSINESS IMPACT",
           evidence: [
-            "500M+ GMV (Revenue generated from the campaign)",
-            "20M+ Total Reach (Reach across Live & Video)",
-            "50+ Creators Active (KOL/KOC brand coverage)",
-            "5 KOL Live Add-ins & 100 Micro KOCs/month (Sustained booking scale)",
+            "900M+ GMV: Generated within 6 months.",
+            "50M+ Total Reach: Reach across Live and Video.",
+            "100 Active KOC Affiliates / month: KOC Affiliate network activated.",
+            "15 Top Beauty KOLs: Live and video collaborations.",
           ],
           frames: ["KOC/KOL list", "Execution timeline", "Cleaned report"],
         },
@@ -504,31 +507,31 @@ const accountContent = {
           action: "",
           evidenceTitle: "COMMUNITY & SOCIAL COMMERCE RESULTS",
           evidence: [
-            "800+ Creators: Active KOC community built and structured nationwide.",
-            "2,000+ Affiliate Videos: Brand coverage content activated through the KOC Hub.",
-            "200+ Live Sessions: Livestream commerce activities driving sales momentum in 01 month.",
-            "10,000+ Interactions: Real engagement from content, group minigames and offline workshops.",
+            "800+ Creators: Supported and developed from the existing community.",
+            "1,000+ Videos: Brand coverage content delivered through the KOC Hub.",
+            ">500M GMV/campaign: Average revenue generated per campaign.",
+            "200-KOC Offline Event Series: Recurring offline gatherings organized every 2 months.",
           ],
           frames: ["KOC community", "Offline workshop", "Affiliate & live activation"],
         },
         {
           label: "Case 03 / Multi-Brand Affiliate Execution",
-          title: "Multi-Brand Video Affiliate Sprint (Clear, Dove, myKella)",
-          roleTitle: "Role: Campaign Setup & Affiliate Operations Lead",
-          context: "Beauty & Personal Care brands including Clear, Dove and myKella needed to create broad e-commerce marketplace coverage through a high-speed Video Affiliate sprint. The biggest challenge was recruiting a large volume of quality KOCs in a short time, standardizing product messaging and controlling content quality consistently across thousands of videos.",
+          title: "Multi-Brand Affiliate Operations Framework & Scale-up",
+          roleTitle: "Role: BD & Operations Framework Lead",
+          context: "Beauty & Personal Care brands including Clear, Dove and myKella needed to create broad e-commerce marketplace coverage through a high-speed Video Affiliate sprint. The main challenge was setting up a scalable operating system that could recruit quality KOCs quickly while training the execution team to control content quality consistently across thousands of videos.",
           role: [
-            "As Setup & Affiliate Operations Lead, I directly established the operating framework and standardized the process for simultaneous execution across multiple brands.",
-            "Operation Setup & System Standard: Set up SOPs from profile filtering, sample delivery and content approval to order tracking; built specialized KOC selection criteria for each product line including hair care, skincare and makeup.",
-            "KOC Sourcing & Engagement: Coordinated recruitment and activation of thousands of active KOCs; improved video return rates through reward mechanics tied to view milestones and GMV/orders.",
-            "Quality & Content Control: Set up a two-layer content review mechanism to ensure videos matched product messaging, brand image and TikTok/e-commerce platform policies.",
-            "Data Tracking & Reporting: Monitored real-time dashboard metrics, measured conversion and reach, and consolidated detailed performance reports for each brand (Clear, Dove, myKella).",
+            "Directly served as BD & Operations Framework Lead, connecting the project, packaging the operation challenge and equipping the execution team.",
+            "Business Development & Brand Acquisition: Connected with Clear, Dove and myKella, advised on Affiliate needs and brought project scopes into the agency.",
+            "Framework & SOP Standardization: Packaged the operating SOP from profile filtering, sample delivery, two-layer content approval to order tracking; set up realtime dashboard tools for the team.",
+            "Team Recruitment & Training: Recruited and directly trained Account Lead and operation team members on KOC selection, brand coordination and field-risk handling.",
+            "Ecosystem Connection & Handover: Connected the available KOC Affiliate network from VietCreator Hub, handed over the operating system and provided expert guidance for smooth campaign execution.",
           ],
           action: "",
           evidenceTitle: "PROJECT OPERATION RESULTS",
           evidence: [
-            "750+ Active KOCs: Creator system activated simultaneously across 3 brands (Clear: 400+, Dove: 250+, myKella: 100+).",
-            "3,700+ Videos Uploaded: Total Video Affiliate market coverage (Clear: 2500+, Dove: 1000+, myKella: 200+).",
-            "10M+ Total Views: Total reach generated through Video Review content (Clear: 5M+, Dove: 3M+, myKella: 2M+).",
+            "500+ KOCs collaborated: Creator/KOC system coordinated across multiple campaigns.",
+            "3,700+ Videos Uploaded: Total Video Affiliate coverage across multiple projects.",
+            "10M+ Total Views: Total reach generated through Video Review content.",
             "2,000+ Generated Orders: Direct orders activated through the Affiliate network.",
           ],
           frames: ["Multi-brand creator system", "Video affiliate tracker", "Performance dashboard"],
@@ -561,9 +564,9 @@ const accountContent = {
       eyebrow: "TRUSTED BY BRANDS & METRICS",
       title: "Partnered brands & hands-on growth signals",
       results: [
-        ["35M – 350M+ VND", "Campaign budgets optimized and monitored with P&L control."],
-        ["12 – 15+ Pitching & Proposals", "Projects supported across strategic decks and quotation development."],
-        ["3 – 6 Mentees / Juniors", "People trained through standardized operation and reporting workflows."],
+        ["35M - 350M VND", "Campaign budgets monitored with costing, margin and P&L control."],
+        ["12-15 Pitching & Proposals", "Supported research, planning, deck preparation, quotation and client follow-up, with around 12 wins."],
+        ["2-3 Concurrent Projects", "Selected scale: 100-800 video deliverables/campaign; 5 mid-tier KOCs or 100+ small KOCs/month."],
       ],
     },
     gallery: {
@@ -664,6 +667,8 @@ export default function AccountPortfolioPage() {
             </button>
             <a
               href={content.cvHref}
+              target="_blank"
+              rel="noreferrer"
               className={`${isHeaderCompact ? "hidden" : "inline-flex"} items-center gap-2 rounded-full bg-blue-950 px-4 py-2 text-xs font-black text-white transition hover:bg-blue-700`}
             >
               <FileText size={15} />
@@ -716,6 +721,8 @@ export default function AccountPortfolioPage() {
             </button>
             <a
               href={content.cvHref}
+              target="_blank"
+              rel="noreferrer"
               onClick={() => setIsMenuOpen(false)}
               className="inline-flex items-center justify-center gap-2 rounded-2xl bg-blue-950 px-3 py-3 text-xs font-black uppercase tracking-[0.12em] text-white transition hover:bg-blue-700"
             >
@@ -915,7 +922,7 @@ export default function AccountPortfolioPage() {
         <div className="mx-auto max-w-6xl px-5 md:px-8">
           <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <SectionTitle eyebrow={content.projects.eyebrow} title={content.projects.title} />
-            <a href={content.cvHref} className="inline-flex w-fit items-center gap-2 rounded-full bg-blue-500 px-5 py-3 text-sm font-black text-white transition hover:bg-blue-700">
+            <a href={content.cvHref} target="_blank" rel="noreferrer" className="inline-flex w-fit items-center gap-2 rounded-full bg-blue-500 px-5 py-3 text-sm font-black text-white transition hover:bg-blue-700">
               {content.projects.downloadCv}
               <ArrowUpRight size={17} />
             </a>
